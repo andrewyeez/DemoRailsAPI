@@ -1,0 +1,11 @@
+class TestController < ActionController::Base
+  # Prevent CSRF attacks by raising an exception.
+  # For APIs, you may want to use :null_session instead.
+  protect_from_forgery with: :exception
+
+  def index
+  	@testVar = 'Andrew'
+  	render file: 'app/views/layouts/application.html.erb'
+  end
+
+end
