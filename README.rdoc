@@ -1,15 +1,7 @@
 == Ruby API Demo
 
-= Objective
+[ Objective ]
  Demonstrate basic CRUD using Ruby on Rails as an API Service.
-
-* Ruby version
-
-- ruby 2.2.3
-
-* Gems
-
-- See Gemfile
 
 [ ToDo ]
 
