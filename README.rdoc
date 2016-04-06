@@ -1,10 +1,12 @@
 == Ruby API Demo
 
+[ Need Attention ]
+* Drop users table using active record methods
+
 [ Objective ]
  Demonstrate basic CRUD using Ruby on Rails as an API Service.
 
 [ ToDo ]
-
 * Create Tables
   1. colors
    * id (integer)
@@ -15,7 +17,6 @@
   3. shapes
    * id (integer)
    * name (string)
-
 * API
   1. User can request to view content [GET]
   2. User can request to update content [POST]
