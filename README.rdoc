@@ -1,13 +1,7 @@
 == Ruby API Demo
 
-#////////////////////////////////////////////////////////
-#//
-#//  Objective:
-#//
-#//    Demonstrate basic CRUD using Ruby on Rails as an
-#//    API Service.
-#//
-#////////////////////////////////////////////////////////
+= Objective
+ Demonstrate basic CRUD using Ruby on Rails as an API Service.
 
 * Ruby version
 
