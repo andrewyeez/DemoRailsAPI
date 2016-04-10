@@ -10,9 +10,9 @@ Rails.application.routes.draw do
   root to: 'landing_page#index' 
 
   # fruits routes API 
-  match '/fruits' => 'fruits#all', via :get
-  match '/fruits/:id' =>'fruits#single', via :get
-  match '/fruits/search/description/:description', via :get
-  match '/fruits/search/name/:color', via :get
+  get '/api/fruits' => 'fruit#all'
+  get '/api/fruits/:id' =>'fruit#single'
+  # get '/fruits/search/description/:description'
+  # get '/fruits/search/name/:color'
 
 end
